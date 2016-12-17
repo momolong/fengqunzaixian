@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head >
+    <meta charset="UTF-8">
+    <title>管控中心</title>
+    <link rel="icon" href="img/logo.ico " type="image/x-icon"/>
+    <link rel="stylesheet" href="css/global.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/template.js"></script>
+    <script src="dist/easySlider.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img src="img/fengqun-logo.jpg" alt=""/></a>
+            <a class="navbar-brand" href="index.html">蜂群在线</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav text-shan">
+                <li>上海抛物线信息科技有限公司。</li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://www.hiavr.com/" target="_blank">虚拟现实官网</a></li>
+                <li><a href="http://shop.souvr.com/forum.php" target="_blank">VR论坛</a></li>
+                <li><a href="https://www.vrshow.com/" target="_blank">VR开发者</a></li>
+                <li><button type="button" class="" ><a href="login.html">登录</a> </button></li>
+                <li><button type="button" class=""><a href="registered.html">注册</a> </button></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="left1 col-md-2 col-sm-4">
+    <div class="left-box">
+        <object type='application/x-shockwave-flash'
+                data='swf/fqzx8.swf'>
+            <param name="scale " value="Exactfit">
+            <param name="wmode" value="transparent">
+        </object>
+        <ul>
+            <div class="li-view"><span class="col-md-2 glyphicon glyphicon-user"></span>管控中心</div>
+            <li class="active"><a href="upload.html" target="iframe">上传下载</a></li>
+            <li><a href="management.html" target="iframe">个人管理</a></li>
+            <div class="li-view"><a href="index.html"><span class="col-md-2 glyphicon glyphicon-info-sign"></span>返回</a></div>
+        </ul>
+        <footer >
+            <p>Copyright ©蜂群在线(2016) All rights reserved</p>
+        </footer>
+    </div>
+</div>
+<div id="iframe-box"  class="embed-responsive embed-responsive-4by3 col-md-10 col-sm-8 col-md-offset-2 col-sm-offset-4"  >
+    <iframe id="iframe" name="iframe" class="embed-responsive-item" src="upload.html"    ></iframe>
+</div>
+
+</body>
+</html>

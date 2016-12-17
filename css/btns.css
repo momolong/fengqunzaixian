@@ -1,0 +1,7 @@
+.btns{position: fixed;top:100px;margin:0  15px ;}
+.btns ul{margin: 10px auto;border: 1px solid #000;background: #333333;width:100%;padding: 10px 5px;}
+.btns ul li{border: 1px solid #333333;background: url("../img/bg_4.jpg");padding:0 2px;
+    text-align: center;line-height: 40px;margin-bottom: 10px;}
+
+.btns ul li:last-child{margin-bottom: 0;}
+.btns ul li:hover{border: 1px solid #333333;background: #fff}

@@ -1,0 +1,12 @@
+article{margin-top: 50px;}
+h2{ line-height: 25px;font-size: 15px;background: #F5F5F5;color:#11CAD4;padding-left:15px;}
+
+.content-piece1{}
+.content-piece1 p strong{float: left;margin-left: 20px;}
+.content-piece1 p span{float:right;margin-right: 20px;}
+.content-piece1 hr{margin: 0px}
+
+.con li{padding:15px;}
+.con li img{width:100%;}
+.con li>strong{float: left;padding: 5px;}
+.con li span{float: right;padding: 5px;}

@@ -1,0 +1,27 @@
+
+.content{}
+.tab-bar{font-size: 15px;line-height: 30px;text-align: center}
+.tab-bar>ul>li{color:#fff;cursor:pointer;width:80px;height:30px;float:left;background: #000;border-radius: 10px;border: 1px solid #000;margin-left: 10px;}
+
+.tab-bar .on{background: #fff;color: #000}
+article{margin-top: 20px;margin-bottom: 40px;}
+a{color: #000;display: block;width:100%;height:100%;}
+a:hover{text-decoration:none;color:#999}
+
+.btns{}
+.btns button{display: inline-block;width:100px;border-radius: 10px;padding:5px 10px;background: url("../img/body_bg.jpg");
+    text-align: center;border: 2px solid #000000;font-weight: bold;color:#fff}
+.btns button:hover{border: 2px solid #fff;}
+
+.col-md-10{padding: 0}
+.content-piece1{}
+.content-piece1 p strong{float: left;margin-left: 20px;}
+.content-piece1 p span{float:right;margin-right: 20px;}
+.content-piece1 hr{margin: 0px}
+.con{padding: 0;}
+.con li{padding:15px;}
+.con li img{width:100%;}
+.con li>strong{float: left;padding: 5px;}
+.con li span{float: right;padding: 5px;}
+
+.tabBox .col-md-12{padding: 0}

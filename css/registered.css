@@ -1,0 +1,14 @@
+html{height:100%}
+body{background: #131313;height:100%;overflow: hidden;background: url("../img/body_bg.jpg");background-size:100% 100%;}
+td {padding:7px;}
+input{outline:none;color:#000}
+label{margin: 0}
+img{margin: 140px 0;background: rgba(255,255,255,.5);border-radius:20px;padding: 40px 0}
+h1{color:#fff;}
+form{height:100%;padding:60px 0;color:#000;background: rgba(0,0,0,0.5);}
+input{background: none;border: none}
+label{background: #fff;display: block;width:100%;padding: 5px;border-radius: 10px;box-shadow: 0 0 8px 4px #000;}
+label span{display: inline-block;width:30%;text-align: right}
+label input{width: 65%}
+input[type="submit"]{box-shadow: 0 0 8px 4px #000;background:#F8C126;width:100%;padding: 5px;display: block;margin:0 auto;border-radius: 10px;color:#000}
+input[type="submit"]:hover{background: #fff;color:#000;}

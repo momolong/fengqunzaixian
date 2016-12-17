@@ -1,0 +1,62 @@
+html{height: 100%;}
+body{height:100%;background: url("../img/body_bg.jpg");background-size: 100% 100%;overflow: hidden}
+a{color:#000;cursor: pointer;}
+a:hover{color:#000;}
+#rine-ani{border-radius:20px;background:rgba(255,255,255,.4);width:600px;height:400px;overflow: hidden;position: relative;margin:50px auto;}
+.fengqun{width:370px;position: absolute;top:125px;left:20px;-webkit-transform:rotate(-9deg);-moz-transform:rotate(-9deg)}
+.a1{width:500px;position: absolute;top:250px;left:50px;}
+.feng{width: 40px;position: absolute;top:215px;left:430px;}
+.qun{width: 40px;position: absolute;top:205px;left:480px;}
+.cli{position: absolute;top:315px;left:420px;font-weight: bold }
+
+@keyframes fengqun{
+    0%{-webkit-transform:rotate(-0deg);-moz-transform:rotate(-0deg);top:125px;left:-500px;}
+    10%{-webkit-transform:rotate(-0deg);-moz-transform:rotate(-0deg);top:125px;left:20px;}
+    15%{-webkit-transform:rotate(-9deg);-moz-transform:rotate(-9deg);top:125px;left:20px;}
+    20%{-webkit-transform:rotate(-7deg);-moz-transform:rotate(-7deg);top:125px;left:20px;}
+    25%{-webkit-transform:rotate(-9deg);-moz-transform:rotate(-9deg);top:125px;left:20px;}
+    75%{-webkit-transform:rotate(-8deg);-moz-transform:rotate(-8deg);top:125px;left:20px;}
+    100%{-webkit-transform:rotate(-9deg);-moz-transform:rotate(-9deg);top:125px;left:20px;}
+}
+.fengqun{animation:fengqun 10s ;}
+@keyframes a1{
+    0%{top:250px;left:700px;}
+    10%{top:250px;left:700px;}
+    15%{top:250px;left:50px;}
+    20%{top:250px;left:55px;}
+    25%{top:250px;left:50px;}
+    75%{top:250px;left:50px;}
+    100%{top:250px;left:50px;}
+}
+.a1{animation:a1 10s ;}
+@keyframes feng{
+    0%{top:-100px;left:430px;}
+    15%{top:-100px;left:430px;}
+    20%{top:215px;left:430px;}
+    22%{top:205px;left:430px;}
+    24%{top:215px;left:430px;}
+    26%{top:205px;left:430px;}
+    28%{top:215px;left:430px;}
+    100%{top:215px;left:430px;}
+}
+.feng{animation:feng 10s ;}
+@keyframes qun{
+    0%{top:-100px;left:480px;}
+    20%{top:-100px;left:480px;}
+    25%{top:205px;left:480px;}
+    27%{top:195px;left:480px;}
+    29%{top:205px;left:480px;}
+    31%{top:195px;left:480px;}
+    33%{top:205px;left:480px;}
+    100%{top:205px;left:480px;}
+
+}
+.qun{animation:qun 10s ;animation-iteration-count:1;}
+@keyframes cli{
+    0%{opacity:0;}
+    25%{opacity:0;}
+    30%{opacity:1;}
+    100%{opacity:1;}
+
+}
+.cli{animation:cli 10s ;animation-iteration-count:1;}

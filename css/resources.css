@@ -1,0 +1,9 @@
+article{padding: 30px 0;}
+.content-piece1{padding-top: 30px;}
+.content-piece1 p strong{float: left;margin-left: 20px;}
+.content-piece1 p span{float:right;margin-right: 20px;}
+.content-piece1 hr{margin:0}
+.con li{padding:15px;}
+.con li img{width:100%;}
+.con li>strong{float: left;padding: 5px;}
+.con li span{float: right;padding: 5px;}
